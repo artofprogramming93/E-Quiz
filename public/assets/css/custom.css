@@ -1,0 +1,16 @@
+p.indent-text {
+    text-indent: 25px;
+}
+p.justify-text{
+    text-align: justify;
+}
+p {
+    font-size: large;
+}
+li {
+    font-size: larger;
+}
+h1.title{
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,36 @@
+<br>
+<div class="container">
+    <div class="jumbotron">
+  <h1 class="display-2">ILMU PENGETAHUAN ALAM</h1>
+  <p class="lead">UNTUK SMP/SLTA KELAS VII SEMESTER I</p>
+  <hr class="my-4">
+  <p>Website ini berisi materi dan soal soal pembelajaran Ilmu Pengetahuan Alam untuk Siswa SMP/SLTA Kelas VII Semester I</p>
+  <p class="lead">
+    <a id="materi-role" class="btn btn-primary btn-lg" href="#" role="button"><i class="fa fa-book"></i> Materi</a>
+    <a id="quiz-role" class="btn btn-primary btn-lg" href="#" role="button"><i class="fa fa-question-circle"></i> Quiz</a>
+    <a id="kompetensi-role" class="btn btn-primary btn-lg" href="#" role="button"><i class="fa fa-clipboard"></i> Kompetensi Dasar</a>
+  </p>
+
+  <hr>
+
+<div class="alert alert-secondary materi-link">
+  <h4 class="materi-link">List Materi Pembelajaran</h4>
+  <a class="badge badge-success materi-link" type="button" href="/materi/pesawat-sederhana">Pesawat Sederhana</a>
+  <a class="badge badge-info materi-link" type="button" href="/materi/teori-relativitas">Teori Relativitas</a>
+  <a class="badge badge-warning materi-link" type="button" href="/materi/gravitasi">Gravitasi</a>
+</div>
+  
+</div>
+</div>
+
+<script>
+  $(document).ready(function(){
+    $('.materi-link').hide();
+  })
+  
+  $("#materi-role").click(function(){
+    $('.materi-link').show(function(){
+      setTimeout: 3000
+    })
+  })
+</script>
