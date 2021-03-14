@@ -1,0 +1,499 @@
+<br>
+<div class="container">
+    <button class="btn btn-sm btn-success" onclick="BOTAudio()">Instruksi Pengerjaan Soal</button><hr>
+    <section id="instruksi">
+
+    </section>
+    <div id="perhitungan-skor" class="justify-content-center">
+        <table id="table-hasil" class="table table-bordered">
+            <thead>
+                <tr>
+                    <th style="width:15%">Soal No</th>
+                    <th>Hasil</th>
+                    <th>Skor</th>
+                </tr>
+                <tbody>
+
+                </tbody>
+            </thead>
+        </table>
+        <hr>
+        <p id="total"></p>
+    </div>
+
+    <div class="soal alert alert-secondary" id="page-1">
+        <p class="justify-text">1.  Semua peralatan sederhana yang digunakan untuk memudahkan pekerjaan manusia disebut...</p>
+        <div class="row">
+            <div class="col-md-6">
+                <input class="pilihan-1" type="radio" name="pilihan-ganda-1" id="1" value="A"> &nbsp;  &nbsp; A. Pesawat Rumit</p>
+                <input class="pilihan-1" type="radio" name="pilihan-ganda-1" id="1" value="B"> &nbsp;  &nbsp; B. Pesawat Sederhana</p>
+                <input class="pilihan-1" type="radio" name="pilihan-ganda-1" id="1" value="C"> &nbsp;  &nbsp; C. Pesawat Antariksa</p>
+                <input class="pilihan-1" type="radio" name="pilihan-ganda-1" id="1" value="D"> &nbsp;  &nbsp; D. Perkakas Rumah Tangga</p>
+            </div>
+            <div class="col-md-6">
+                
+            </div>
+        </div>
+
+        <button id="kunci-1" class="btn btn-success">Kunci Pilihan Anda</button><hr>
+        <span class="soal-info-1" id="soal-1-info"></span><hr>
+        <section class="alert alert-primary soal-info-1" id="pembahasan-1">
+
+        </section>
+    </div>
+    <div class="soal alert alert-secondary" id="page-2">
+        <p class="justify-text">2.   Berikut ini yang merupakan keuntungan menggunakan pesawat sederhana adalah....</p>
+        <div class="row">
+            <div class="col-md-6">
+                <input class="pilihan-2" type="radio" name="pilihan-ganda-2" id="2" value="A"> &nbsp;  &nbsp; A. memperbesar gaya</p>
+                <input class="pilihan-2" type="radio" name="pilihan-ganda-2" id="2" value="B"> &nbsp;  &nbsp; B. menambah energi</p>
+                <input class="pilihan-2" type="radio" name="pilihan-ganda-2" id="2" value="C"> &nbsp;  &nbsp; C. memperkecil usaha</p>
+                <input class="pilihan-2" type="radio" name="pilihan-ganda-2" id="2" value="D"> &nbsp;  &nbsp; D. mengubah bentuk</p>
+            </div>
+            <div class="col-md-6">
+                
+            </div>
+        </div>
+
+        <button id="kunci-2" class="btn btn-success">Kunci Pilihan Anda</button><hr>
+        <span class="soal-info-2" id="soal-2-info"></span><hr>
+        <section class="alert alert-primary soal-info-2" id="pembahasan-2">
+
+        </section>
+    </div>
+    <div class="soal alert alert-secondary" id="page-3">
+        <p class="justify-text">3. Berikut ini yang bukan termasuk jenis pesawat sederhana adalah....</p>
+        <div class="row">
+            <div class="col-md-6">
+                <input class="pilihan-3" type="radio" name="pilihan-ganda-3" id="3" value="A"> &nbsp;  &nbsp; A. tuas</p>
+                <input class="pilihan-3" type="radio" name="pilihan-ganda-3" id="3" value="B"> &nbsp;  &nbsp; B. katrol</p>
+                <input class="pilihan-3" type="radio" name="pilihan-ganda-3" id="3" value="C"> &nbsp;  &nbsp; C. roda berporos</p>
+                <input class="pilihan-3" type="radio" name="pilihan-ganda-3" id="3" value="D"> &nbsp;  &nbsp; D. roda berputar</p>
+            </div>
+            <div class="col-md-6">
+                
+            </div>
+        </div>
+    
+        <button id="kunci-3" class="btn btn-success">Kunci Pilihan Anda</button><hr>
+        <span class="soal-info-3" id="soal-3-info"></span><hr>
+        <section class="alert alert-primary soal-info-3" id="pembahasan-3">
+
+        </section>
+    </div>
+    <div class="soal alert alert-secondary" id="page-4">
+        <p class="justify-text">4.   Gaya yang dikeluarkan untuk memindahkan beban disebut....</p>
+        <div class="row">
+            <div class="col-md-6">
+                <input class="pilihan-4" type="radio" name="pilihan-ganda-4" id="4" value="A"> &nbsp;  &nbsp; A. kuasa</p>
+                <input class="pilihan-4" type="radio" name="pilihan-ganda-4" id="4" value="B"> &nbsp;  &nbsp; B. usaha</p>
+                <input class="pilihan-4" type="radio" name="pilihan-ganda-4" id="4" value="C"> &nbsp;  &nbsp; C. tenaga</p>
+                <input class="pilihan-4" type="radio" name="pilihan-ganda-4" id="4" value="D"> &nbsp;  &nbsp; D. daya</p>
+            </div>
+            <div class="col-md-6">
+                
+            </div>
+        </div>
+    
+        <button id="kunci-4" class="btn btn-success">Kunci Pilihan Anda</button><hr>
+        <span class="soal-info-4" id="soal-4-info"></span><hr>
+        <section class="alert alert-primary soal-info-4" id="pembahasan-4">
+
+        </section>
+    </div>
+
+    <div class="soal alert alert-secondary" id="page-5">
+        <p class="justify-text">5. Perhatikan gambar berikut!</p>
+        <img src="/images/soal-5.png" alt="">
+        <p class="justify-text">Pernyataan yang benar tentang sistem kerja pengungkit sesuai gambar di atas adalah....</p>
+        <div class="row">
+            <div class="col-md-6">
+                <input class="pilihan-5" type="radio" name="pilihan-ganda-5" id="5" value="A"> &nbsp;  &nbsp; A. (A) titik kuasa dan (BC) lengan kuasa</p>
+                <input class="pilihan-5" type="radio" name="pilihan-ganda-5" id="5" value="B"> &nbsp;  &nbsp; B. (B) titik kuasa dan (AB) lengan kuasa</p>
+                <input class="pilihan-5" type="radio" name="pilihan-ganda-5" id="5" value="C"> &nbsp;  &nbsp; C. (C) titik kuasa dan (AB) lengan beban</p>
+                <input class="pilihan-5" type="radio" name="pilihan-ganda-5" id="5" value="D"> &nbsp;  &nbsp; D. (D) lengan beban dan (BC) lengan kuasa</p>
+            </div>
+            <div class="col-md-6">
+                
+            </div>
+        </div>
+    
+        <button id="kunci-5" class="btn btn-success">Kunci Pilihan Anda</button><hr>
+        <span class="soal-info-5" id="soal-5-info"></span><hr>
+        <section class="alert alert-primary soal-info-5" id="pembahasan-5">
+
+        </section>
+    </div>
+
+    <hr><br><br><br>
+    <div id="navigation">
+        <div class="d-flex flex-row-reverse fixed-bottom justify-content-center">
+            <div class="alert alert-info fixed p-2">
+                <button id="prev" class="btn btn-md btn-success"> <i class="fas fa-arrow-circle-left"></i>  Prev </button>
+                <span id="numberofpage"></span>
+                <button id="next" class="btn btn-md btn-success">Next <i class="fas fa-arrow-circle-right"></i> </button>
+                <button id="btn-hasil" class="btn btn-md btn-primary">Cek Hasil <i class="fas fa-calculator"></i> </button>
+                <span style="font-size: larger; padding-top: 7px; padding-bottom: 12px;" id="i-btn" class="badge badge-warning"></span>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<script>
+
+function BOTAudio(){
+        var msg = `<p class='justify-text'>Jika anda yakin jawaban anda sudah benar, maka anda dapat mengunci nya dengan menekan tombol kunci pilihan anda, jika anda belum yakin, anda dapat mengerjakan soal yang lain terlebih dahulu dengan mengabaikan tombol yang berada di soal tersebut, untuk memilih soal lain anda dapat menekan tombol navigasi yang ada di paling bawah, Selamat Mengerjakan </p>`
+
+        document.getElementById("instruksi").innerHTML = msg
+
+    }
+
+
+    var jawaban = new Array();
+    var kunci_jawaban = ["B","A","D","A","C"]
+
+    var btnNext = document.getElementById("next")
+    var btnPrev = document.getElementById("prev")
+
+    var PageArrays = [];
+    var CurrentPage = [];
+    var pageCount = document.querySelectorAll(".soal").length;
+    var NumberOfPage = document.getElementById("numberofpage")
+    var markUp = "";
+    for(var i = 1; i < pageCount+1; i++){
+        markUp += "<a onClick = 'getId(this.id)' class='btn btn-sm btn-warning numpage' id='num-"+i+"' href='#'>"+i+"</a>"
+    }
+    NumberOfPage.innerHTML = markUp
+    var idArrays = []
+    function getId(id){
+        document.getElementById(id).style.color = "black"
+        var convertId = id.split("-")[1]
+
+        idArrays.push(parseInt(convertId))
+        idArrays.splice(0)
+        idArrays.push(parseInt(convertId))
+        var difference = PageArrays.filter(x => !idArrays.includes(x));
+
+        for(var x = 0; x < difference.length; x++){
+            document.getElementById("page-"+difference[x]+"").hidden = true
+            document.getElementById("num-"+difference[x]+"").style.color = "white"
+        }
+        document.getElementById("page-"+idArrays[0]+"").hidden = false
+
+    }
+
+    for(var i = 1; i < pageCount+1; i++){
+        PageArrays.push(i)
+    }
+    for(var x = 2 ; x < PageArrays.length+1; x++ ){
+        document.getElementById("page-"+x+"").hidden = true
+        console.log(x);
+    }
+
+    var hidden_elements = $("body").find("div :hidden");
+    console.log(hidden_elements)
+
+    console.log(PageArrays);
+    var i = 1;
+    var prevPage = i;
+    var nextPage = i;
+
+    btnNext.addEventListener("click", () => {
+        i++
+        if(i > pageCount){
+            i = pageCount
+        }
+        if(nextPage < pageCount){
+            nextPage = pageCount
+        }
+        CurrentPage.push(i);
+        CurrentPage.splice(0);
+        CurrentPage.push(i)
+
+        let difference = PageArrays.filter(x => !CurrentPage.includes(x))
+        document.getElementById("page-"+i+"").hidden = false
+        for(var v =0; v < difference.length; v++){
+            document.getElementById("page-"+difference[v]+"").hidden = true
+            document.getElementById("num-"+difference[v]+"").style.color = "white"
+        }
+        document.getElementById("num-"+i+"").style.color = "black"
+        // document.getElementById("i-btn").innerHTML = "Halaman > " +i
+    })
+
+    btnPrev.addEventListener("click", () => {
+        i--
+        if(i < 1){
+            i = 1
+        }
+        prevPage++;
+        if(prevPage > pageCount){
+            prevPage = pageCount
+        }
+        CurrentPage.push(i);
+        CurrentPage.splice(0);
+        CurrentPage.push(i)
+        let difference = PageArrays.filter(x => !CurrentPage.includes(x))
+        
+        for(var v =0; v < difference.length; v++){
+            document.getElementById("page-"+difference[v]+"").hidden = true
+            document.getElementById("num-"+difference[v]+"").style.color = "white"
+        }
+        document.getElementById("page-"+i+"").hidden = false
+        document.getElementById("num-"+i+"").style.color = "black"
+        // document.getElementById("i-btn").innerHTML = "Halaman > "+i
+    })
+    
+
+    $(document).ready(function(){
+
+        document.getElementById("num-"+i+"").style.color = "black"
+        document.getElementById("btn-hasil").hidden = true
+        document.getElementById("perhitungan-skor").hidden = true
+        $(".soal-info-1").hide()
+        $(".soal-info-2").hide()
+        $(".soal-info-3").hide()
+        $(".soal-info-4").hide()
+        $(".soal-info-5").hide()
+
+    })
+
+    var btn1 = document.getElementById('kunci-1')
+    var btn2 = document.getElementById('kunci-2')
+    var btn3 = document.getElementById('kunci-3')
+    var btn4 = document.getElementById('kunci-4')
+    var btn5 = document.getElementById('kunci-5')
+    var btnSelesai = document.getElementById('btn-hasil')
+
+    btn1.addEventListener("click", () => {
+        var pilihan = document.getElementsByName("pilihan-ganda-1")
+        var markup  = `<p class='justify-text'>Pembahasan :</p>
+                       <p class='justify-text'>Pesawat sederhana adalah alat mekanik yang dapat mengubah arah atau besaran dari suatu gaya</p>                
+        `
+        for(var i = 0, length = pilihan.length; i < length; i++){
+            if(pilihan[i].checked){
+                jawaban.push(pilihan[i].value)
+                if(jawaban[0] == kunci_jawaban[0]){
+                    $("#soal-1-info").addClass("badge badge-success")
+                    document.getElementById("soal-1-info").innerHTML = "Jawaban Benar"
+                }else{
+                    $("#soal-1-info").addClass("badge badge-danger")
+                    document.getElementById("soal-1-info").innerHTML = "Jawaban Salah"
+                }
+                $(".soal-info-1").show(function(){
+                    setTimeout(3000)
+                })
+                document.getElementById('pembahasan-1').innerHTML = markup
+                var x = document.getElementsByClassName("pilihan-1")
+                if(kunci_jawaban.length == jawaban.length){
+                    document.getElementById("btn-hasil").hidden = false
+                }else{
+                    document.getElementById("btn-hasil").hidden = true
+                }
+                for(var a = 0; a < x.length; a++){
+                    x[a].disabled = true;
+                }
+                console.log(jawaban)
+                console.log(kunci_jawaban)
+                break;
+            }
+        }
+    })
+    btn2.addEventListener("click", () => {
+    var pilihan = document.getElementsByName("pilihan-ganda-2")
+    var markup  = `<p class='justify-text'>Pembahasan :</p>
+    <p class='justify-text'>Pesawat sederhana dapat digunakan untuk memperbesar gaya dalam artian kita bisa mengangkat beban yang lebih besar dari gaya yang kita berikan.</p>                
+        `
+        for(var i = 0, length = pilihan.length; i < length; i++){
+            if(pilihan[i].checked){
+                jawaban.push(pilihan[i].value)
+                if(jawaban[1] == kunci_jawaban[1]){
+                    $("#soal-2-info").addClass("badge badge-success")
+                    document.getElementById("soal-2-info").innerHTML = "Jawaban Benar"
+                }else{
+                    $("#soal-2-info").addClass("badge badge-danger")
+                    document.getElementById("soal-2-info").innerHTML = "Jawaban Salah"
+                }
+                $(".soal-info-2").show(function(){
+                    setTimeout(3000)
+                })
+                document.getElementById('pembahasan-2').innerHTML = markup
+                var x = document.getElementsByClassName("pilihan-2")
+                if(kunci_jawaban.length == jawaban.length){
+                    document.getElementById("btn-hasil").hidden = false
+                }else{
+                    document.getElementById("btn-hasil").hidden = true
+                }
+                for(var a = 0; a < x.length; a++){
+                    x[a].disabled = true;
+                }
+                break;
+
+            }
+        }
+        console.log(jawaban)
+        console.log(kunci_jawaban)
+    })
+
+    btn3.addEventListener("click", () => {
+    var pilihan = document.getElementsByName("pilihan-ganda-3")
+    var markup  = `<p class='justify-text'>Pembahasan :</p>
+    <p class='justify-text'>Contoh Pesawat Sederhana :</p>
+    <ul>
+        <li><p>Bidang miring</p></li>    
+        <li><p>Roda dan gandar</p></li>    
+        <li><p>Tuas</p></li>    
+        <li><p>Katrol</p></li>    
+        <li><p>Baji</p></li>    
+        <li><p>Sekrup</p></li>    
+        <li><p>Roda Berporos</p></li>    
+    </ul>          
+        `
+        for(var i = 0, length = pilihan.length; i < length; i++){
+            if(pilihan[i].checked){
+                jawaban.push(pilihan[i].value)
+                if(jawaban[2] == kunci_jawaban[2]){
+                    $("#soal-3-info").addClass("badge badge-success")
+                    document.getElementById("soal-3-info").innerHTML = "Jawaban Benar"
+                }else{
+                    $("#soal-3-info").addClass("badge badge-danger")
+                    document.getElementById("soal-3-info").innerHTML = "Jawaban Salah"
+                }
+                $(".soal-info-3").show(function(){
+                    setTimeout(3000)
+                })
+                document.getElementById('pembahasan-3').innerHTML = markup
+                var x = document.getElementsByClassName("pilihan-3")
+                if(kunci_jawaban.length == jawaban.length){
+                    document.getElementById("btn-hasil").hidden = false
+                }else{
+                    document.getElementById("btn-hasil").hidden = true
+                }
+                for(var a = 0; a < x.length; a++){
+                    x[a].disabled = true;
+                }
+                break;
+            }
+        }
+        console.log(jawaban)
+        console.log(kunci_jawaban)
+    })
+
+    btn4.addEventListener("click", () => {
+    var pilihan = document.getElementsByName("pilihan-ganda-4")
+    var markup  = `<p class='justify-text'>Pembahasan :</p>
+    <p class='justify-text'>Gaya yang dikeluarkan untuk memindahkan beban disebut dengan kuasa.</p>                
+        `
+        for(var i = 0, length = pilihan.length; i < length; i++){
+            if(pilihan[i].checked){
+                jawaban.push(pilihan[i].value)
+                if(jawaban[3] == kunci_jawaban[3]){
+                    $("#soal-4-info").addClass("badge badge-success")
+                    document.getElementById("soal-4-info").innerHTML = "Jawaban Benar"
+                }else{
+                    $("#soal-4-info").addClass("badge badge-danger")
+                    document.getElementById("soal-4-info").innerHTML = "Jawaban Salah"
+                }
+                $(".soal-info-4").show(function(){
+                    setTimeout(3000)
+                })
+                document.getElementById('pembahasan-4').innerHTML = markup
+                var x = document.getElementsByClassName("pilihan-4")
+                if(kunci_jawaban.length == jawaban.length){
+                    document.getElementById("btn-hasil").hidden = false
+                }else{
+                    document.getElementById("btn-hasil").hidden = true
+                }
+                for(var a = 0; a < x.length; a++){
+                    x[a].disabled = true;
+                }
+                break;
+            }
+        }
+        console.log(jawaban)
+        console.log(kunci_jawaban)
+    })
+
+    btn5.addEventListener("click", () => {
+    var pilihan = document.getElementsByName("pilihan-ganda-5")
+    var markup  = `<p class='justify-text'>Pembahasan :</p>
+    <p class='justify-text'>Pernyataan yang benar mengenai sistem kerja pengungkit berdasarkan gambar diatas adalah (C) titik kuasa dan (AB) lengan beban.</p>                
+    <p class='justify-text'>Pada gambar diatas untuk A merupakan titik beban, B titik tumpu dan C adalah titik kuasa, sedangkan AB adalah lengan beban dan BC adalah lengan kuasa.</p>                
+    <p class='justify-text'>Nah berdasarkan pembahasan diatas dapat disimpulkan bahwa pernyataan yang benar mengenai sistem kerja pengungkit berdasarkan gambar diatas adalah jawabannya C. (C) titik kuasa dan (AB) lengan beban.</p>                
+        `
+        for(var i = 0, length = pilihan.length; i < length; i++){
+            if(pilihan[i].checked){
+                jawaban.push(pilihan[i].value)
+                if(jawaban[4] == kunci_jawaban[4]){
+                    $("#soal-5-info").addClass("badge badge-success")
+                    document.getElementById("soal-5-info").innerHTML = "Jawaban Benar"
+                }else{
+                    $("#soal-5-info").addClass("badge badge-danger")
+                    document.getElementById("soal-5-info").innerHTML = "Jawaban Salah"
+                }
+                $(".soal-info-5").show(function(){
+                    setTimeout(3000)
+                })
+                document.getElementById('pembahasan-5').innerHTML = markup
+                var x = document.getElementsByClassName("pilihan-5")
+                if(kunci_jawaban.length == jawaban.length){
+                    document.getElementById("btn-hasil").hidden = false
+                }else{
+                    document.getElementById("btn-hasil").hidden = true
+                }
+                for(var a = 0; a < x.length; a++){
+                    x[a].disabled = true;
+                }
+                break;
+            }
+        }
+        console.log(jawaban)
+        console.log(kunci_jawaban)
+    })
+
+    // console.log(kunci_jawaban)
+    
+    btnSelesai.addEventListener("click", () => {
+        var skor = []
+        for(var i = 0; i < kunci_jawaban.length; i++){
+            skor.push(kunci_jawaban[i] == jawaban[i]);
+        }
+        var hasil = skor.filter((x) => {
+            return x == true
+        })
+
+        var skor_akhir = parseInt(hasil.length * 20)
+        var no = 1;
+        var mark = "";
+        var nilai = 0;
+        var ket = "";
+        var table = $("#table-hasil").find('tbody')
+        for(var i = 0; i < skor.length; i++){
+            if(skor[i] == true){
+                nilai = 20
+                ket = "Benar"
+            }else{
+                nilai = 0;
+                ket = "Salah"
+            }
+            mark += `
+                <tr>
+                    <td>`+no+`</td>   
+                    <td>`+ket+`</td>   
+                    <td>`+nilai+`</td>   
+                </tr>
+            `
+            no++
+        }
+        for(var x = 1 ; x < document.querySelectorAll(".soal").length+1; x++){
+            document.getElementById("page-"+x+"").hidden = true
+        }
+        document.getElementById("perhitungan-skor").hidden = false
+        table.append(mark)
+        document.getElementById("total").innerHTML = "Total Skor : "+skor_akhir
+        $("#navigation").hide(function(){
+            setTimeout(3000)
+        });
+    })
+
+</script>

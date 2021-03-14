@@ -19,6 +19,14 @@
   <a class="badge badge-info materi-link" type="button" href="/materi/teori-relativitas">Teori Relativitas</a>
   <a class="badge badge-warning materi-link" type="button" href="/materi/gravitasi">Gravitasi</a>
 </div>
+
+
+<div class="alert alert-secondary quiz-link">
+  <h4 class="quiz-link">List Quiz</h4>
+  <a class="badge badge-success quiz-link" type="button" href="/quiz/pesawat-sederhana">Pesawat Sederhana</a>
+  <a class="badge badge-info quiz-link" type="button" href="/materi/teori-relativitas">Teori Relativitas</a>
+  <a class="badge badge-warning quiz-link" type="button" href="/materi/gravitasi">Gravitasi</a>
+</div>
   
 </div>
 </div>
@@ -26,10 +34,23 @@
 <script>
   $(document).ready(function(){
     $('.materi-link').hide();
+    $('.quiz-link').hide();
   })
   
   $("#materi-role").click(function(){
     $('.materi-link').show(function(){
+      setTimeout: 3000
+    })
+    $('.quiz-link').hide(function(){
+      setTimeout: 3000
+    })
+  })
+
+  $('#quiz-role').click(function(){
+    $('.quiz-link').show(function(){
+      setTimeout: 3000
+    })
+     $('.materi-link').hide(function(){
       setTimeout: 3000
     })
   })
